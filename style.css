@@ -558,3 +558,14 @@ footer {
     list-style-type: none;
     margin-top: 8px;
 }
+.resume{
+    margin-top: 2rem;
+    height: 3rem;
+    background-color: var(--hover-color);
+    /* color: var(--white); */
+    width: 10rem;
+}
+.resume:hover{
+    background-color: var(--second-bg);
+    color: var(--white);
+}

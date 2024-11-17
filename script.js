@@ -78,4 +78,10 @@ document.addEventListener("DOMContentLoaded", function() {
         document.documentElement.style.setProperty('--white', currentPalette.white);
         currentIndex = (currentIndex + 1) % palettes.length; 
     });
+    document.querySelector('.resume').addEventListener('click',()=>{
+        const temp=document.createElement("a");
+        temp.href="shivagaur_resume.pdf";
+        temp.download="shivagaur_resume.pdf";
+        temp.click();   
+    });
 });
