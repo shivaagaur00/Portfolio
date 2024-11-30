@@ -569,3 +569,9 @@ footer {
     background-color: var(--second-bg);
     color: var(--white);
 }
+.project-img{
+    object-fit: cover;
+    height: 80%;
+    width: 80%;
+    margin-bottom: 30px;
+}
