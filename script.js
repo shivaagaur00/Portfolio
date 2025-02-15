@@ -80,7 +80,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
     document.querySelector('.resume').addEventListener('click',()=>{
         const temp=document.createElement("a");
-        temp.href="shivagaur_resume.pdf";
+        temp.href="SDE (2).pdf";
         temp.download="shivagaur_resume.pdf";
         temp.click();   
     });

@@ -176,13 +176,26 @@ h2 {
 .skills-grid{
     margin-top: 65px;
 }
-.skill-item, .service-item, .portfolio-item {
+.service-item, .portfolio-item {
     width: 30%;
     text-align: center;
     padding: 20px;
     background-color: var(--second-bg);
     border-radius: 10px;
     transition: transform 0.3s ease, background 0.3s ease;
+}
+.skill-item {
+    text-align: center;
+    padding: 20px;
+    width: 20%;
+    border-radius: 10px;
+    transition: transform 0.3s ease, background 0.3s ease;
+    background-color: var(--second-bg);
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .skill-item:hover, .service-item:hover, .portfolio-item:hover {
@@ -243,19 +256,12 @@ h2:hover{
 #about p{
     padding: 20px;
 }
-.skill-item{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    height: 9.5%;
-    width: 19%;
-    gap: 1rem;
-}
+
 .skill-item img{
     object-fit: cover;
     height: 80%;
     width: 80%;
+    margin-bottom: 12px;
 }
 @keyframes scaleupdown {
     100% {
